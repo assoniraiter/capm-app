@@ -20,7 +20,7 @@ Requirements for usage are provided in the requirements.txt file and can be easi
 
 All you have to do is to download the files and run request.py. The model is already deployed on Heroku server and it takes around four minutes to perform the calculations for the default companies. 
 
-In order to alter data collection settings (start and end date, periodicity, risk-free rate) modify the functions get_yf and get_sgs located on data_gathering.py. If you are looking to estimate beta parameters from companies not listed in B3 Index, all you have to do is modify ticker_list object in request.py.
+If you are looking to estimate beta parameters from companies not listed in B3 Index, all you have to do is modify ticker_list object in request.py.
 
 New functionalities are being developed.
 
